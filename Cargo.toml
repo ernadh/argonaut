@@ -1,0 +1,18 @@
+[package]
+
+name = "argonaut"
+version = "0.1.0"
+authors = ["Ernad Halilovic <ernadh@gmail.com>"]
+description = "JSON building DSL and configurable serializers for Rust"
+repository = "https://github.com/ernadh/argonaut"
+documentation = ""
+keywords = ["json"]
+license = "MIT"
+
+[dependencies]
+value-trait = "0.1"
+simd-json = "0.3"
+halfbrown = "0.1"
+
+[[test]]
+name = "tests"
